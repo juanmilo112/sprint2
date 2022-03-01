@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter&display=swap');
+
+::-webkit-scrollbar {
+  display: none;
+  }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(241, 240, 230);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.buscador::placeholder {
+  font-size: 17px;
+}
+
+
+.font-inter {
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 41px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.altura {
+  max-height: 450px;
+  overflow-y: scroll;
+}
+
+.inter {
+  font-family: 'Inter';
+  font-weight: 600;
+  overflow: hidden;
+}
+
+.lupa {
+  transform: translate(-35px, 7px);
+  font-size: 1.2rem;
+}
